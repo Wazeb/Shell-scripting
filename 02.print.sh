@@ -14,7 +14,7 @@ echo Good Morning
 # \e -> new color
 
 
-echo -e "Hello,\n\n\t\Welcome to todays class.\n\nRegards,\nWazeb."
+echo -e "Hello,\n\n\tWelcome to todays class.\n\nRegards,\nWazeb."
 
 #Hello,
 #
@@ -22,3 +22,21 @@ echo -e "Hello,\n\n\t\Welcome to todays class.\n\nRegards,\nWazeb."
 #
 #Regards,
 #Wazeb.
+
+## Colors           Foreground
+# Red                   31
+# Green                 32
+# Yellow                33
+# Blue                  34
+# Magenta               35
+# Cyan                  36
+
+# syntax for color print
+# echo -e "e[COLmMESSAGE"
+
+echo -e "\[31mRED TEXT"
+echo -e "\[32mGREEN TEXT"
+echo -e "\[33mYELLOW TEXT"
+echo -e "\[34m BLUE TEXT"
+echo -e "\[35mMAGENTA TEXT"
+echo -e "\[36m CYAN TEXT"
