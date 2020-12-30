@@ -5,4 +5,13 @@
 # 2. printf  -> Have more syntax
 
 echo Hello world
+echo Good Morning
 
+echo -e Hello,\n\n Welcome to todays class.\n\n Regards,\n Wazeb.
+
+#Hello,
+#
+#Welcome to todays class.
+#
+#Regards,
+#Wazeb.
