@@ -7,7 +7,14 @@
 echo Hello world
 echo Good Morning
 
-echo -e Hello,\n\n Welcome to todays class.\n\n Regards,\n Wazeb.
+
+## Escape Sequences
+# \n -> new line
+# \t -> new tab
+# \e -> new color
+
+
+echo -e "Hello,\n\n\t\Welcome to todays class.\n\nRegards,\nWazeb."
 
 #Hello,
 #
