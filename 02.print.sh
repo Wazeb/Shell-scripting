@@ -41,4 +41,4 @@ echo -e "\e[34mBLUE TEXT"
 echo -e "\e[35mMAGENTA TEXT"
 echo -e "\e[36mCYAN TEXT"
 
-echo -e "\e{41;33mYELLOW on RED"
+echo -e "\e[41;33mYELLOW on RED"
