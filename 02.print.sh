@@ -46,3 +46,9 @@ echo -e "\e[41;33mYELLOW on RED"
 ## Color we enable will not disable by default, means the color will move to next line as well.
 
 echo -e "\e[41;33mYELLOW on RED \e[0m"
+
+# Some style codes
+# Underline characters - 4
+# Bold characters - 1
+
+echo -e "\e[33mYellow Normal, \e[1;33mBold Yellow\e[0m"
