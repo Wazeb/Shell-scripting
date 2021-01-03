@@ -21,4 +21,17 @@ echo $COURSE_NAME Tainer - Wazeb
 
 # STYLE in variable NAMES
 # Unix/Linux -> VARNAME (All in capital characters)
+# Java = varName (CamelCase)
 
+DATE=2021-01-03
+echo "Good Morning, Today date is $DATE"
+
+# To declare variable content dynamically then we should be using
+     # 1. Command substitution       VAR=$(command)
+     # 2. Art\ithmatic substitution  VAR=$((expression))
+
+Date=$(date +%F)
+echo "Good Morning, Today date is $DATE"
+
+ADD=$((2+3))
+echo ADD = $ADD
