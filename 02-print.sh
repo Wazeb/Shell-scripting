@@ -53,5 +53,5 @@ echo -e "\e[41;33mYELLOW on RED \e[0m"
 
 echo -e "\e[33mYellow Normal, \e[1;33mBold Yellow\e[0m"
 
-echo -e "\e[4mHeello World \e[0m"
+echo -e "\e[4mHello World \e[0m"
 
