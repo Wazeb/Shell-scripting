@@ -1,3 +1,7 @@
 #!/bin/bash
 
-echo Installing Mongo
+COMPONENT=mongo
+
+source components/common.sh
+
+INFO "Setup MongoDB Components"
