@@ -36,10 +36,10 @@ INFO "Extract Artifact"
 unzip -o mongodb.zip &>>$LOG_FILE
 STAT $? "Artifact Extract"
 
-INFO "Load Schema - Cataloge Service"
-mongo < catalouge.js &>>$LOG_FILE
+INFO "Load Schema - Catalogue Service"
+mongo < catalogue.js &>>$LOG_FILE
 STAT $? "Catalouge Schema Load"
 
-INFO "Load Schema - User Service"
-mongo < user.js &>>$LOG_FILE
-STAT $? "user Schema Load"
+INFO "Load Schema - Users Service"
+mongo < users.js &>>$LOG_FILE
+STAT $? "Users Schema Load"
